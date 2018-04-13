@@ -1,9 +1,10 @@
 # unity3d-AssetMarker
-#功能#
+
+# 功能
 ·资源导入时，根据所在目录是否受AssetMarker约束而自动设置
 ·手动设置所有受AssetMarker约束的资源
 
-#参数
+# 参数
 ·bundleName：AssetBundleName命名规则，例：uis/views/{firstdir}
     可选参数：
     ·fulldir：与AssetMarker配置文件的相对路径
@@ -11,7 +12,7 @@
     ·filename：使用asset的名字命名
 ·include/exclude：资源筛选规则
 
-#TODO：
+# TODO：
 ·支持嵌套
 ·异常检测和处理
     ·重复设置
